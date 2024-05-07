@@ -31,19 +31,20 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.lblCopyright = new System.Windows.Forms.Label();
             this.btnBypass = new System.Windows.Forms.Panel();
-            this.lblLogo = new System.Windows.Forms.Label();
-            this.lblCompanytitle = new System.Windows.Forms.Label();
-            this.lblUsername = new System.Windows.Forms.Label();
             this.btnLogin = new Guna.UI2.WinForms.Guna2Button();
-            this.lblPassword = new System.Windows.Forms.Label();
             this.txtPhoneNumber = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtUsername = new Guna.UI2.WinForms.Guna2TextBox();
             this.pnlSub = new System.Windows.Forms.Panel();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.lblLogo = new System.Windows.Forms.Label();
+            this.lblUsername = new System.Windows.Forms.Label();
+            this.lblCompanytitle = new System.Windows.Forms.Label();
+            this.lblPassword = new System.Windows.Forms.Label();
             this.picBoxLoadingGIF = new System.Windows.Forms.PictureBox();
+            this.btnClose = new Guna.UI2.WinForms.Guna2TileButton();
             this.btnLogo = new Guna.UI2.WinForms.Guna2Button();
             this.pcbLoginLogo = new System.Windows.Forms.PictureBox();
-            this.btnClose = new Guna.UI2.WinForms.Guna2TileButton();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
             this.btnBypass.SuspendLayout();
             this.pnlSub.SuspendLayout();
@@ -76,7 +77,6 @@
             // btnBypass
             // 
             this.btnBypass.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnBypass.Controls.Add(this.picBoxLoadingGIF);
             this.btnBypass.Controls.Add(this.btnLogin);
             this.btnBypass.Controls.Add(this.txtPhoneNumber);
             this.btnBypass.Controls.Add(this.txtUsername);
@@ -86,45 +86,6 @@
             this.btnBypass.Name = "btnBypass";
             this.btnBypass.Size = new System.Drawing.Size(1024, 768);
             this.btnBypass.TabIndex = 1;
-            // 
-            // lblLogo
-            // 
-            this.lblLogo.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.lblLogo.BackColor = System.Drawing.Color.Transparent;
-            this.lblLogo.Font = new System.Drawing.Font("Lucida Bright", 21F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLogo.ForeColor = System.Drawing.Color.White;
-            this.lblLogo.Location = new System.Drawing.Point(2, 365);
-            this.lblLogo.Name = "lblLogo";
-            this.lblLogo.Size = new System.Drawing.Size(1022, 39);
-            this.lblLogo.TabIndex = 47;
-            this.lblLogo.Text = "DINE360";
-            this.lblLogo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblCompanytitle
-            // 
-            this.lblCompanytitle.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.lblCompanytitle.BackColor = System.Drawing.Color.Transparent;
-            this.lblCompanytitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCompanytitle.ForeColor = System.Drawing.Color.White;
-            this.lblCompanytitle.Location = new System.Drawing.Point(2, 333);
-            this.lblCompanytitle.Name = "lblCompanytitle";
-            this.lblCompanytitle.Size = new System.Drawing.Size(1021, 32);
-            this.lblCompanytitle.TabIndex = 42;
-            this.lblCompanytitle.Text = "{Company - Branch}";
-            this.lblCompanytitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblUsername
-            // 
-            this.lblUsername.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.lblUsername.AutoSize = true;
-            this.lblUsername.BackColor = System.Drawing.Color.Transparent;
-            this.lblUsername.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsername.ForeColor = System.Drawing.Color.White;
-            this.lblUsername.Location = new System.Drawing.Point(364, 424);
-            this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(83, 21);
-            this.lblUsername.TabIndex = 35;
-            this.lblUsername.Text = "Username";
             // 
             // btnLogin
             // 
@@ -147,19 +108,6 @@
             this.btnLogin.TabIndex = 33;
             this.btnLogin.Text = "Sign in";
             // 
-            // lblPassword
-            // 
-            this.lblPassword.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.lblPassword.AutoSize = true;
-            this.lblPassword.BackColor = System.Drawing.Color.Transparent;
-            this.lblPassword.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPassword.ForeColor = System.Drawing.Color.White;
-            this.lblPassword.Location = new System.Drawing.Point(364, 499);
-            this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(79, 21);
-            this.lblPassword.TabIndex = 37;
-            this.lblPassword.Text = "Password";
-            // 
             // txtPhoneNumber
             // 
             this.txtPhoneNumber.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -178,7 +126,7 @@
             this.txtPhoneNumber.Location = new System.Drawing.Point(368, 525);
             this.txtPhoneNumber.Margin = new System.Windows.Forms.Padding(5);
             this.txtPhoneNumber.Name = "txtPhoneNumber";
-            this.txtPhoneNumber.PasswordChar = '\0';
+            this.txtPhoneNumber.PasswordChar = '●';
             this.txtPhoneNumber.PlaceholderForeColor = System.Drawing.Color.DimGray;
             this.txtPhoneNumber.PlaceholderText = "Type Password";
             this.txtPhoneNumber.SelectedText = "";
@@ -213,6 +161,8 @@
             // pnlSub
             // 
             this.pnlSub.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(28)))), ((int)(((byte)(50)))));
+            this.pnlSub.Controls.Add(this.label2);
+            this.pnlSub.Controls.Add(this.picBoxLoadingGIF);
             this.pnlSub.Controls.Add(this.btnClose);
             this.pnlSub.Controls.Add(this.guna2Button1);
             this.pnlSub.Controls.Add(this.btnLogo);
@@ -249,10 +199,62 @@
             this.guna2Button1.TabIndex = 44;
             this.guna2Button1.Text = "Sign in(Bypass)";
             // 
+            // lblLogo
+            // 
+            this.lblLogo.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lblLogo.BackColor = System.Drawing.Color.Transparent;
+            this.lblLogo.Font = new System.Drawing.Font("Lucida Bright", 21F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLogo.ForeColor = System.Drawing.Color.White;
+            this.lblLogo.Location = new System.Drawing.Point(3, 343);
+            this.lblLogo.Name = "lblLogo";
+            this.lblLogo.Size = new System.Drawing.Size(1018, 39);
+            this.lblLogo.TabIndex = 47;
+            this.lblLogo.Text = "DINE360";
+            this.lblLogo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblUsername
+            // 
+            this.lblUsername.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lblUsername.AutoSize = true;
+            this.lblUsername.BackColor = System.Drawing.Color.Transparent;
+            this.lblUsername.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsername.ForeColor = System.Drawing.Color.White;
+            this.lblUsername.Location = new System.Drawing.Point(364, 424);
+            this.lblUsername.Name = "lblUsername";
+            this.lblUsername.Size = new System.Drawing.Size(83, 21);
+            this.lblUsername.TabIndex = 35;
+            this.lblUsername.Text = "Username";
+            // 
+            // lblCompanytitle
+            // 
+            this.lblCompanytitle.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lblCompanytitle.BackColor = System.Drawing.Color.Transparent;
+            this.lblCompanytitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCompanytitle.ForeColor = System.Drawing.Color.White;
+            this.lblCompanytitle.Location = new System.Drawing.Point(3, 311);
+            this.lblCompanytitle.Name = "lblCompanytitle";
+            this.lblCompanytitle.Size = new System.Drawing.Size(1021, 32);
+            this.lblCompanytitle.TabIndex = 42;
+            this.lblCompanytitle.Text = "{Company - Branch}";
+            this.lblCompanytitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblPassword
+            // 
+            this.lblPassword.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lblPassword.AutoSize = true;
+            this.lblPassword.BackColor = System.Drawing.Color.Transparent;
+            this.lblPassword.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPassword.ForeColor = System.Drawing.Color.White;
+            this.lblPassword.Location = new System.Drawing.Point(364, 499);
+            this.lblPassword.Name = "lblPassword";
+            this.lblPassword.Size = new System.Drawing.Size(79, 21);
+            this.lblPassword.TabIndex = 37;
+            this.lblPassword.Text = "Password";
+            // 
             // picBoxLoadingGIF
             // 
             this.picBoxLoadingGIF.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.picBoxLoadingGIF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(82)))));
+            this.picBoxLoadingGIF.BackColor = System.Drawing.Color.Transparent;
             this.picBoxLoadingGIF.Image = global::Dine360.Properties.Resources.loading_gif;
             this.picBoxLoadingGIF.Location = new System.Drawing.Point(671, 525);
             this.picBoxLoadingGIF.Name = "picBoxLoadingGIF";
@@ -261,6 +263,25 @@
             this.picBoxLoadingGIF.TabIndex = 46;
             this.picBoxLoadingGIF.TabStop = false;
             this.picBoxLoadingGIF.Visible = false;
+            // 
+            // btnClose
+            // 
+            this.btnClose.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnClose.CheckedState.FillColor = System.Drawing.Color.DarkGray;
+            this.btnClose.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnClose.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnClose.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnClose.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnClose.FillColor = System.Drawing.Color.Transparent;
+            this.btnClose.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnClose.ForeColor = System.Drawing.Color.White;
+            this.btnClose.HoverState.BorderColor = System.Drawing.Color.Gray;
+            this.btnClose.HoverState.FillColor = System.Drawing.Color.Silver;
+            this.btnClose.Image = global::Dine360.Properties.Resources.Close_white;
+            this.btnClose.Location = new System.Drawing.Point(989, 7);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(28, 25);
+            this.btnClose.TabIndex = 48;
             // 
             // btnLogo
             // 
@@ -285,31 +306,24 @@
             this.pcbLoginLogo.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.pcbLoginLogo.BackColor = System.Drawing.Color.Transparent;
             this.pcbLoginLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pcbLoginLogo.Location = new System.Drawing.Point(0, 96);
+            this.pcbLoginLogo.Location = new System.Drawing.Point(2, 57);
             this.pcbLoginLogo.Name = "pcbLoginLogo";
             this.pcbLoginLogo.Size = new System.Drawing.Size(1021, 234);
             this.pcbLoginLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pcbLoginLogo.TabIndex = 41;
             this.pcbLoginLogo.TabStop = false;
             // 
-            // btnClose
+            // label2
             // 
-            this.btnClose.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnClose.CheckedState.FillColor = System.Drawing.Color.DarkGray;
-            this.btnClose.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnClose.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnClose.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnClose.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnClose.FillColor = System.Drawing.Color.Transparent;
-            this.btnClose.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnClose.ForeColor = System.Drawing.Color.White;
-            this.btnClose.HoverState.BorderColor = System.Drawing.Color.Gray;
-            this.btnClose.HoverState.FillColor = System.Drawing.Color.Silver;
-            this.btnClose.Image = global::Dine360.Properties.Resources.Close_white;
-            this.btnClose.Location = new System.Drawing.Point(989, 7);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(28, 25);
-            this.btnClose.TabIndex = 48;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(0, 378);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(1025, 31);
+            this.label2.TabIndex = 49;
+            this.label2.Text = "{Envioronment}";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // formLogin
             // 
@@ -351,5 +365,6 @@
         private System.Windows.Forms.Panel pnlSub;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2TileButton btnClose;
+        private System.Windows.Forms.Label label2;
     }
 }

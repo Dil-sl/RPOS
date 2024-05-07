@@ -64,6 +64,18 @@
     <Compile Include="View\Main\formMain.Designer.cs">
       <DependentUpon>formMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\Menus\formPurchasingManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Menus\formPurchasingManage.Designer.cs">
+      <DependentUpon>formPurchasingManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Menus\formSalesHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Menus\formSalesHistory.Designer.cs">
+      <DependentUpon>formSalesHistory.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="View\Login\formLogin.resx">
       <DependentUpon>formLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -79,6 +91,12 @@
     </Compile>
     <EmbeddedResource Include="View\Main\formMain.resx">
       <DependentUpon>formMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Menus\formPurchasingManage.resx">
+      <DependentUpon>formPurchasingManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Menus\formSalesHistory.resx">
+      <DependentUpon>formSalesHistory.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -125,6 +143,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\stock42.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stock36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reports36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewPurchase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PurchaseHistory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserPic.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
