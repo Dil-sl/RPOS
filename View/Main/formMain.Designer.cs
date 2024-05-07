@@ -33,16 +33,16 @@
             this.pnlTop = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.btnClose = new Guna.UI2.WinForms.Guna2TileButton();
-            this.btnMaximize = new Guna.UI2.WinForms.Guna2TileButton();
-            this.btnMinimize = new Guna.UI2.WinForms.Guna2TileButton();
             this.rBtnDashboard = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.btnMinimize = new Guna.UI2.WinForms.Guna2TileButton();
+            this.btnMaximize = new Guna.UI2.WinForms.Guna2TileButton();
+            this.btnClose = new Guna.UI2.WinForms.Guna2TileButton();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.pnlLeft.SuspendLayout();
             this.pnlTop.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -112,43 +112,84 @@
             this.guna2GradientPanel2.Size = new System.Drawing.Size(960, 720);
             this.guna2GradientPanel2.TabIndex = 5;
             // 
-            // btnClose
+            // rBtnDashboard
             // 
-            this.btnClose.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnClose.CheckedState.FillColor = System.Drawing.Color.DarkGray;
-            this.btnClose.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnClose.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnClose.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnClose.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnClose.FillColor = System.Drawing.Color.Transparent;
-            this.btnClose.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnClose.ForeColor = System.Drawing.Color.White;
-            this.btnClose.HoverState.BorderColor = System.Drawing.Color.Gray;
-            this.btnClose.HoverState.FillColor = System.Drawing.Color.Silver;
-            this.btnClose.Image = global::Dine360.Properties.Resources.Close_white;
-            this.btnClose.Location = new System.Drawing.Point(71, 2);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(28, 25);
-            this.btnClose.TabIndex = 0;
+            this.rBtnDashboard.Appearance = System.Windows.Forms.Appearance.Button;
+            this.rBtnDashboard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(57)))), ((int)(((byte)(78)))));
+            this.rBtnDashboard.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.rBtnDashboard.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rBtnDashboard.FlatAppearance.BorderSize = 0;
+            this.rBtnDashboard.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
+            this.rBtnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rBtnDashboard.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rBtnDashboard.ForeColor = System.Drawing.Color.White;
+            this.rBtnDashboard.Location = new System.Drawing.Point(0, 0);
+            this.rBtnDashboard.Name = "rBtnDashboard";
+            this.rBtnDashboard.Size = new System.Drawing.Size(64, 48);
+            this.rBtnDashboard.TabIndex = 1;
+            this.rBtnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rBtnDashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.rBtnDashboard.UseVisualStyleBackColor = false;
             // 
-            // btnMaximize
+            // radioButton4
             // 
-            this.btnMaximize.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnMaximize.CheckedState.FillColor = System.Drawing.Color.DarkGray;
-            this.btnMaximize.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnMaximize.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnMaximize.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnMaximize.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnMaximize.FillColor = System.Drawing.Color.Transparent;
-            this.btnMaximize.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnMaximize.ForeColor = System.Drawing.Color.White;
-            this.btnMaximize.HoverState.BorderColor = System.Drawing.Color.Gray;
-            this.btnMaximize.HoverState.FillColor = System.Drawing.Color.Silver;
-            this.btnMaximize.Image = global::Dine360.Properties.Resources.maximize;
-            this.btnMaximize.Location = new System.Drawing.Point(43, 2);
-            this.btnMaximize.Name = "btnMaximize";
-            this.btnMaximize.Size = new System.Drawing.Size(28, 25);
-            this.btnMaximize.TabIndex = 1;
+            this.radioButton4.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton4.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.radioButton4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.radioButton4.FlatAppearance.BorderSize = 0;
+            this.radioButton4.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
+            this.radioButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioButton4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton4.ForeColor = System.Drawing.Color.White;
+            this.radioButton4.Location = new System.Drawing.Point(0, 240);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(64, 64);
+            this.radioButton4.TabIndex = 5;
+            this.radioButton4.Text = "Dashboard";
+            this.radioButton4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.radioButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.radioButton4.UseVisualStyleBackColor = false;
+            // 
+            // radioButton5
+            // 
+            this.radioButton5.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton5.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.radioButton5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.radioButton5.FlatAppearance.BorderSize = 0;
+            this.radioButton5.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
+            this.radioButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioButton5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton5.ForeColor = System.Drawing.Color.White;
+            this.radioButton5.Location = new System.Drawing.Point(0, 304);
+            this.radioButton5.Name = "radioButton5";
+            this.radioButton5.Size = new System.Drawing.Size(64, 64);
+            this.radioButton5.TabIndex = 6;
+            this.radioButton5.Text = "Dashboard";
+            this.radioButton5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.radioButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.radioButton5.UseVisualStyleBackColor = false;
+            // 
+            // radioButton6
+            // 
+            this.radioButton6.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton6.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.radioButton6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.radioButton6.FlatAppearance.BorderSize = 0;
+            this.radioButton6.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
+            this.radioButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioButton6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton6.ForeColor = System.Drawing.Color.White;
+            this.radioButton6.Location = new System.Drawing.Point(0, 368);
+            this.radioButton6.Name = "radioButton6";
+            this.radioButton6.Size = new System.Drawing.Size(64, 64);
+            this.radioButton6.TabIndex = 7;
+            this.radioButton6.Text = "Dashboard";
+            this.radioButton6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.radioButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.radioButton6.UseVisualStyleBackColor = false;
             // 
             // btnMinimize
             // 
@@ -169,66 +210,48 @@
             this.btnMinimize.Size = new System.Drawing.Size(28, 25);
             this.btnMinimize.TabIndex = 2;
             // 
-            // rBtnDashboard
+            // btnMaximize
             // 
-            this.rBtnDashboard.Appearance = System.Windows.Forms.Appearance.Button;
-            this.rBtnDashboard.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rBtnDashboard.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rBtnDashboard.FlatAppearance.BorderSize = 0;
-            this.rBtnDashboard.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
-            this.rBtnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rBtnDashboard.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rBtnDashboard.ForeColor = System.Drawing.Color.White;
-            this.rBtnDashboard.Location = new System.Drawing.Point(0, 0);
-            this.rBtnDashboard.Name = "rBtnDashboard";
-            this.rBtnDashboard.Size = new System.Drawing.Size(64, 48);
-            this.rBtnDashboard.TabIndex = 1;
-            this.rBtnDashboard.Text = "Dashboard";
-            this.rBtnDashboard.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.rBtnDashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.rBtnDashboard.UseVisualStyleBackColor = true;
+            this.btnMaximize.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnMaximize.CheckedState.FillColor = System.Drawing.Color.DarkGray;
+            this.btnMaximize.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnMaximize.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnMaximize.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnMaximize.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnMaximize.FillColor = System.Drawing.Color.Transparent;
+            this.btnMaximize.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnMaximize.ForeColor = System.Drawing.Color.White;
+            this.btnMaximize.HoverState.BorderColor = System.Drawing.Color.Gray;
+            this.btnMaximize.HoverState.FillColor = System.Drawing.Color.Silver;
+            this.btnMaximize.Image = global::Dine360.Properties.Resources.maximize;
+            this.btnMaximize.Location = new System.Drawing.Point(43, 2);
+            this.btnMaximize.Name = "btnMaximize";
+            this.btnMaximize.Size = new System.Drawing.Size(28, 25);
+            this.btnMaximize.TabIndex = 1;
             // 
-            // radioButton1
+            // btnClose
             // 
-            this.radioButton1.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.radioButton1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.radioButton1.FlatAppearance.BorderSize = 0;
-            this.radioButton1.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
-            this.radioButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioButton1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.ForeColor = System.Drawing.Color.White;
-            this.radioButton1.Location = new System.Drawing.Point(0, 48);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(64, 64);
-            this.radioButton1.TabIndex = 2;
-            this.radioButton1.Text = "Dashboard";
-            this.radioButton1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.radioButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.radioButton2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.radioButton2.FlatAppearance.BorderSize = 0;
-            this.radioButton2.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
-            this.radioButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioButton2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.ForeColor = System.Drawing.Color.White;
-            this.radioButton2.Location = new System.Drawing.Point(0, 112);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(64, 64);
-            this.radioButton2.TabIndex = 3;
-            this.radioButton2.Text = "Dashboard";
-            this.radioButton2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.radioButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.btnClose.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnClose.CheckedState.FillColor = System.Drawing.Color.DarkGray;
+            this.btnClose.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnClose.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnClose.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnClose.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnClose.FillColor = System.Drawing.Color.Transparent;
+            this.btnClose.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnClose.ForeColor = System.Drawing.Color.White;
+            this.btnClose.HoverState.BorderColor = System.Drawing.Color.Gray;
+            this.btnClose.HoverState.FillColor = System.Drawing.Color.Silver;
+            this.btnClose.Image = global::Dine360.Properties.Resources.Close_white;
+            this.btnClose.Location = new System.Drawing.Point(71, 2);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(28, 25);
+            this.btnClose.TabIndex = 0;
             // 
             // radioButton3
             // 
             this.radioButton3.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton3.BackColor = System.Drawing.Color.Transparent;
             this.radioButton3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.radioButton3.Dock = System.Windows.Forms.DockStyle.Top;
             this.radioButton3.FlatAppearance.BorderSize = 0;
@@ -236,71 +259,53 @@
             this.radioButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radioButton3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton3.ForeColor = System.Drawing.Color.White;
+            this.radioButton3.Image = global::Dine360.Properties.Resources.stock42;
             this.radioButton3.Location = new System.Drawing.Point(0, 176);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(64, 64);
             this.radioButton3.TabIndex = 4;
-            this.radioButton3.Text = "Dashboard";
             this.radioButton3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.radioButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.UseVisualStyleBackColor = false;
             // 
-            // radioButton4
+            // radioButton2
             // 
-            this.radioButton4.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioButton4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.radioButton4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.radioButton4.FlatAppearance.BorderSize = 0;
-            this.radioButton4.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
-            this.radioButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioButton4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton4.ForeColor = System.Drawing.Color.White;
-            this.radioButton4.Location = new System.Drawing.Point(0, 240);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(64, 64);
-            this.radioButton4.TabIndex = 5;
-            this.radioButton4.Text = "Dashboard";
-            this.radioButton4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.radioButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton2.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton2.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.radioButton2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.radioButton2.FlatAppearance.BorderSize = 0;
+            this.radioButton2.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
+            this.radioButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioButton2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2.ForeColor = System.Drawing.Color.White;
+            this.radioButton2.Image = global::Dine360.Properties.Resources.Rooms42;
+            this.radioButton2.Location = new System.Drawing.Point(0, 112);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(64, 64);
+            this.radioButton2.TabIndex = 3;
+            this.radioButton2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.radioButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.radioButton2.UseVisualStyleBackColor = false;
             // 
-            // radioButton5
+            // radioButton1
             // 
-            this.radioButton5.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioButton5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.radioButton5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.radioButton5.FlatAppearance.BorderSize = 0;
-            this.radioButton5.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
-            this.radioButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioButton5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton5.ForeColor = System.Drawing.Color.White;
-            this.radioButton5.Location = new System.Drawing.Point(0, 304);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(64, 64);
-            this.radioButton5.TabIndex = 6;
-            this.radioButton5.Text = "Dashboard";
-            this.radioButton5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.radioButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.radioButton5.UseVisualStyleBackColor = true;
-            // 
-            // radioButton6
-            // 
-            this.radioButton6.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioButton6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.radioButton6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.radioButton6.FlatAppearance.BorderSize = 0;
-            this.radioButton6.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
-            this.radioButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioButton6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton6.ForeColor = System.Drawing.Color.White;
-            this.radioButton6.Location = new System.Drawing.Point(0, 368);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(64, 64);
-            this.radioButton6.TabIndex = 7;
-            this.radioButton6.Text = "Dashboard";
-            this.radioButton6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.radioButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.radioButton6.UseVisualStyleBackColor = true;
+            this.radioButton1.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton1.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.radioButton1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.radioButton1.FlatAppearance.BorderSize = 0;
+            this.radioButton1.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
+            this.radioButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioButton1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton1.ForeColor = System.Drawing.Color.White;
+            this.radioButton1.Image = global::Dine360.Properties.Resources.sales42;
+            this.radioButton1.Location = new System.Drawing.Point(0, 48);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(64, 64);
+            this.radioButton1.TabIndex = 2;
+            this.radioButton1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.radioButton1.UseVisualStyleBackColor = false;
             // 
             // formMain
             // 
