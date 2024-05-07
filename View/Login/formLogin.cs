@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Dine360
+namespace Dine360.View.Login
 {
     public partial class formLogin : Form
     {
