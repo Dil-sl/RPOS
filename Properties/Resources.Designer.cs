@@ -93,6 +93,66 @@ namespace Dine360.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_category_36__1_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-category-36 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_flow_chart_36 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-flow-chart-36", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_flow_chart_361 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-flow-chart-361", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_invoice_36 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-invoice-36", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_invoice_361 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-invoice-361", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_pay_date_36 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-pay-date-36", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap loading_gif {
             get {
                 object obj = ResourceManager.GetObject("loading-gif", resourceCulture);
@@ -176,6 +236,16 @@ namespace Dine360.Properties {
         internal static System.Drawing.Bitmap sales42 {
             get {
                 object obj = ResourceManager.GetObject("sales42", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap searchByDate {
+            get {
+                object obj = ResourceManager.GetObject("searchByDate", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

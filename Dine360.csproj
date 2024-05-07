@@ -50,6 +50,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Service\APIConnections.cs" />
+    <Compile Include="Service\Constants.cs" />
+    <Compile Include="Service\Util.cs" />
+    <Compile Include="View\DialogBox\formBackAndPop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\DialogBox\formBackAndPop.Designer.cs">
+      <DependentUpon>formBackAndPop.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\Login\formLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +85,9 @@
     <Compile Include="View\Menus\formSalesHistory.Designer.cs">
       <DependentUpon>formSalesHistory.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="View\DialogBox\formBackAndPop.resx">
+      <DependentUpon>formBackAndPop.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\Login\formLogin.resx">
       <DependentUpon>formLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -113,8 +125,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="Resource\" />
-    <Folder Include="Service\" />
     <Folder Include="View\Stock\" />
   </ItemGroup>
   <ItemGroup>
@@ -167,6 +177,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\UserPic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchByDate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-pay-date-36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-category-36 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-invoice-36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-flow-chart-36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-invoice-361.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-flow-chart-361.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

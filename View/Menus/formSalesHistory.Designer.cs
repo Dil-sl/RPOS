@@ -31,15 +31,15 @@
             this.pnlFormMain = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.pnlFormSub = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.label11 = new System.Windows.Forms.Label();
-            this.guna2GradientButton2 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton3 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.btnPurchaseHistory = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.btnNewPurchase = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.label1 = new System.Windows.Forms.Label();
             this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientButton4 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientButton5 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientButton6 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.label1 = new System.Windows.Forms.Label();
+            this.guna2GradientButton2 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.guna2GradientButton3 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btnPurchaseHistory = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btnNewPurchase = new Guna.UI2.WinForms.Guna2GradientButton();
             this.pnlFormMain.SuspendLayout();
             this.pnlFormSub.SuspendLayout();
             this.SuspendLayout();
@@ -93,107 +93,16 @@
             this.label11.TabIndex = 38;
             this.label11.Text = "Sales Details";
             // 
-            // guna2GradientButton2
+            // label1
             // 
-            this.guna2GradientButton2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(57)))), ((int)(((byte)(78)))));
-            this.guna2GradientButton2.BorderRadius = 8;
-            this.guna2GradientButton2.BorderThickness = 1;
-            this.guna2GradientButton2.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(57)))), ((int)(((byte)(78)))));
-            this.guna2GradientButton2.CustomBorderColor = System.Drawing.Color.Black;
-            this.guna2GradientButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton2.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton2.FillColor = System.Drawing.SystemColors.ControlLightLight;
-            this.guna2GradientButton2.FillColor2 = System.Drawing.Color.Gainsboro;
-            this.guna2GradientButton2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(20)))), ((int)(((byte)(36)))));
-            this.guna2GradientButton2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.guna2GradientButton2.Image = global::Dine360.Properties.Resources.PurchaseHistory;
-            this.guna2GradientButton2.Location = new System.Drawing.Point(656, 75);
-            this.guna2GradientButton2.Name = "guna2GradientButton2";
-            this.guna2GradientButton2.Size = new System.Drawing.Size(190, 92);
-            this.guna2GradientButton2.TabIndex = 42;
-            this.guna2GradientButton2.Text = "Purchase History";
-            this.guna2GradientButton2.UseTransparentBackground = true;
-            this.guna2GradientButton2.Visible = false;
-            // 
-            // guna2GradientButton3
-            // 
-            this.guna2GradientButton3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(57)))), ((int)(((byte)(78)))));
-            this.guna2GradientButton3.BorderRadius = 8;
-            this.guna2GradientButton3.BorderThickness = 1;
-            this.guna2GradientButton3.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(57)))), ((int)(((byte)(78)))));
-            this.guna2GradientButton3.CustomBorderColor = System.Drawing.Color.Black;
-            this.guna2GradientButton3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton3.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton3.FillColor = System.Drawing.SystemColors.ControlLightLight;
-            this.guna2GradientButton3.FillColor2 = System.Drawing.Color.Gainsboro;
-            this.guna2GradientButton3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(20)))), ((int)(((byte)(36)))));
-            this.guna2GradientButton3.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.guna2GradientButton3.Image = global::Dine360.Properties.Resources.NewPurchase;
-            this.guna2GradientButton3.Location = new System.Drawing.Point(462, 75);
-            this.guna2GradientButton3.Name = "guna2GradientButton3";
-            this.guna2GradientButton3.Size = new System.Drawing.Size(190, 92);
-            this.guna2GradientButton3.TabIndex = 41;
-            this.guna2GradientButton3.Text = "New Purchase";
-            this.guna2GradientButton3.UseTransparentBackground = true;
-            this.guna2GradientButton3.Visible = false;
-            // 
-            // btnPurchaseHistory
-            // 
-            this.btnPurchaseHistory.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(57)))), ((int)(((byte)(78)))));
-            this.btnPurchaseHistory.BorderRadius = 8;
-            this.btnPurchaseHistory.BorderThickness = 1;
-            this.btnPurchaseHistory.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(57)))), ((int)(((byte)(78)))));
-            this.btnPurchaseHistory.CustomBorderColor = System.Drawing.Color.Black;
-            this.btnPurchaseHistory.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnPurchaseHistory.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnPurchaseHistory.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnPurchaseHistory.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnPurchaseHistory.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnPurchaseHistory.FillColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnPurchaseHistory.FillColor2 = System.Drawing.Color.Gainsboro;
-            this.btnPurchaseHistory.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPurchaseHistory.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(20)))), ((int)(((byte)(36)))));
-            this.btnPurchaseHistory.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.btnPurchaseHistory.Image = global::Dine360.Properties.Resources.PurchaseHistory;
-            this.btnPurchaseHistory.Location = new System.Drawing.Point(266, 75);
-            this.btnPurchaseHistory.Name = "btnPurchaseHistory";
-            this.btnPurchaseHistory.Size = new System.Drawing.Size(190, 92);
-            this.btnPurchaseHistory.TabIndex = 40;
-            this.btnPurchaseHistory.Text = "Purchase History";
-            this.btnPurchaseHistory.UseTransparentBackground = true;
-            // 
-            // btnNewPurchase
-            // 
-            this.btnNewPurchase.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(57)))), ((int)(((byte)(78)))));
-            this.btnNewPurchase.BorderRadius = 8;
-            this.btnNewPurchase.BorderThickness = 1;
-            this.btnNewPurchase.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(57)))), ((int)(((byte)(78)))));
-            this.btnNewPurchase.CustomBorderColor = System.Drawing.Color.Black;
-            this.btnNewPurchase.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnNewPurchase.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnNewPurchase.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnNewPurchase.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnNewPurchase.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnNewPurchase.FillColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnNewPurchase.FillColor2 = System.Drawing.Color.Gainsboro;
-            this.btnNewPurchase.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNewPurchase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(20)))), ((int)(((byte)(36)))));
-            this.btnNewPurchase.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.btnNewPurchase.Image = global::Dine360.Properties.Resources.NewPurchase;
-            this.btnNewPurchase.Location = new System.Drawing.Point(70, 75);
-            this.btnNewPurchase.Name = "btnNewPurchase";
-            this.btnNewPurchase.Size = new System.Drawing.Size(190, 92);
-            this.btnNewPurchase.TabIndex = 39;
-            this.btnNewPurchase.Text = "New Purchase";
-            this.btnNewPurchase.UseTransparentBackground = true;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(54, 189);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(116, 21);
+            this.label1.TabIndex = 43;
+            this.label1.Text = "Invoice Details";
             // 
             // guna2GradientButton1
             // 
@@ -264,12 +173,12 @@
             this.guna2GradientButton5.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GradientButton5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(20)))), ((int)(((byte)(36)))));
             this.guna2GradientButton5.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.guna2GradientButton5.Image = global::Dine360.Properties.Resources.PurchaseHistory;
+            this.guna2GradientButton5.Image = global::Dine360.Properties.Resources.icons8_flow_chart_361;
             this.guna2GradientButton5.Location = new System.Drawing.Point(266, 228);
             this.guna2GradientButton5.Name = "guna2GradientButton5";
             this.guna2GradientButton5.Size = new System.Drawing.Size(190, 92);
             this.guna2GradientButton5.TabIndex = 45;
-            this.guna2GradientButton5.Text = "Purchase History";
+            this.guna2GradientButton5.Text = "Invoices By Section";
             this.guna2GradientButton5.UseTransparentBackground = true;
             // 
             // guna2GradientButton6
@@ -289,24 +198,115 @@
             this.guna2GradientButton6.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GradientButton6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(20)))), ((int)(((byte)(36)))));
             this.guna2GradientButton6.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.guna2GradientButton6.Image = global::Dine360.Properties.Resources.NewPurchase;
+            this.guna2GradientButton6.Image = global::Dine360.Properties.Resources.icons8_invoice_361;
             this.guna2GradientButton6.Location = new System.Drawing.Point(70, 228);
             this.guna2GradientButton6.Name = "guna2GradientButton6";
             this.guna2GradientButton6.Size = new System.Drawing.Size(190, 92);
             this.guna2GradientButton6.TabIndex = 44;
-            this.guna2GradientButton6.Text = "New Purchase";
+            this.guna2GradientButton6.Text = "View Invoices";
             this.guna2GradientButton6.UseTransparentBackground = true;
             // 
-            // label1
+            // guna2GradientButton2
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(54, 189);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(116, 21);
-            this.label1.TabIndex = 43;
-            this.label1.Text = "Invoice Details";
+            this.guna2GradientButton2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(57)))), ((int)(((byte)(78)))));
+            this.guna2GradientButton2.BorderRadius = 8;
+            this.guna2GradientButton2.BorderThickness = 1;
+            this.guna2GradientButton2.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(57)))), ((int)(((byte)(78)))));
+            this.guna2GradientButton2.CustomBorderColor = System.Drawing.Color.Black;
+            this.guna2GradientButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2GradientButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2GradientButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2GradientButton2.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2GradientButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2GradientButton2.FillColor = System.Drawing.SystemColors.ControlLightLight;
+            this.guna2GradientButton2.FillColor2 = System.Drawing.Color.Gainsboro;
+            this.guna2GradientButton2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GradientButton2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(20)))), ((int)(((byte)(36)))));
+            this.guna2GradientButton2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.guna2GradientButton2.Image = global::Dine360.Properties.Resources.PurchaseHistory;
+            this.guna2GradientButton2.Location = new System.Drawing.Point(656, 75);
+            this.guna2GradientButton2.Name = "guna2GradientButton2";
+            this.guna2GradientButton2.Size = new System.Drawing.Size(190, 92);
+            this.guna2GradientButton2.TabIndex = 42;
+            this.guna2GradientButton2.Text = "Purchase History";
+            this.guna2GradientButton2.UseTransparentBackground = true;
+            this.guna2GradientButton2.Visible = false;
+            // 
+            // guna2GradientButton3
+            // 
+            this.guna2GradientButton3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(57)))), ((int)(((byte)(78)))));
+            this.guna2GradientButton3.BorderRadius = 8;
+            this.guna2GradientButton3.BorderThickness = 1;
+            this.guna2GradientButton3.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(57)))), ((int)(((byte)(78)))));
+            this.guna2GradientButton3.CustomBorderColor = System.Drawing.Color.Black;
+            this.guna2GradientButton3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2GradientButton3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2GradientButton3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2GradientButton3.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2GradientButton3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2GradientButton3.FillColor = System.Drawing.SystemColors.ControlLightLight;
+            this.guna2GradientButton3.FillColor2 = System.Drawing.Color.Gainsboro;
+            this.guna2GradientButton3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2GradientButton3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(20)))), ((int)(((byte)(36)))));
+            this.guna2GradientButton3.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.guna2GradientButton3.Image = global::Dine360.Properties.Resources.NewPurchase;
+            this.guna2GradientButton3.Location = new System.Drawing.Point(462, 75);
+            this.guna2GradientButton3.Name = "guna2GradientButton3";
+            this.guna2GradientButton3.Size = new System.Drawing.Size(190, 92);
+            this.guna2GradientButton3.TabIndex = 41;
+            this.guna2GradientButton3.Text = "New Purchase";
+            this.guna2GradientButton3.UseTransparentBackground = true;
+            this.guna2GradientButton3.Visible = false;
+            // 
+            // btnPurchaseHistory
+            // 
+            this.btnPurchaseHistory.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(57)))), ((int)(((byte)(78)))));
+            this.btnPurchaseHistory.BorderRadius = 8;
+            this.btnPurchaseHistory.BorderThickness = 1;
+            this.btnPurchaseHistory.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(57)))), ((int)(((byte)(78)))));
+            this.btnPurchaseHistory.CustomBorderColor = System.Drawing.Color.Black;
+            this.btnPurchaseHistory.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnPurchaseHistory.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnPurchaseHistory.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnPurchaseHistory.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnPurchaseHistory.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnPurchaseHistory.FillColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnPurchaseHistory.FillColor2 = System.Drawing.Color.Gainsboro;
+            this.btnPurchaseHistory.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPurchaseHistory.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(20)))), ((int)(((byte)(36)))));
+            this.btnPurchaseHistory.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.btnPurchaseHistory.Image = global::Dine360.Properties.Resources.icons8_category_36__1_;
+            this.btnPurchaseHistory.Location = new System.Drawing.Point(266, 75);
+            this.btnPurchaseHistory.Name = "btnPurchaseHistory";
+            this.btnPurchaseHistory.Size = new System.Drawing.Size(190, 92);
+            this.btnPurchaseHistory.TabIndex = 40;
+            this.btnPurchaseHistory.Text = "Sales By Category";
+            this.btnPurchaseHistory.UseTransparentBackground = true;
+            // 
+            // btnNewPurchase
+            // 
+            this.btnNewPurchase.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(57)))), ((int)(((byte)(78)))));
+            this.btnNewPurchase.BorderRadius = 8;
+            this.btnNewPurchase.BorderThickness = 1;
+            this.btnNewPurchase.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(57)))), ((int)(((byte)(78)))));
+            this.btnNewPurchase.CustomBorderColor = System.Drawing.Color.Black;
+            this.btnNewPurchase.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnNewPurchase.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnNewPurchase.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnNewPurchase.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnNewPurchase.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnNewPurchase.FillColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnNewPurchase.FillColor2 = System.Drawing.Color.Gainsboro;
+            this.btnNewPurchase.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNewPurchase.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(20)))), ((int)(((byte)(36)))));
+            this.btnNewPurchase.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
+            this.btnNewPurchase.Image = global::Dine360.Properties.Resources.icons8_pay_date_36;
+            this.btnNewPurchase.Location = new System.Drawing.Point(70, 75);
+            this.btnNewPurchase.Name = "btnNewPurchase";
+            this.btnNewPurchase.Size = new System.Drawing.Size(190, 92);
+            this.btnNewPurchase.TabIndex = 39;
+            this.btnNewPurchase.Text = "Sales By Date";
+            this.btnNewPurchase.UseTransparentBackground = true;
             // 
             // formSalesHistory
             // 

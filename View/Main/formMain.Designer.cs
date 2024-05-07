@@ -29,34 +29,34 @@
         private void InitializeComponent()
         {
             this.pnlAccount = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.pnlLeft = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.rBtnDashboard = new System.Windows.Forms.RadioButton();
-            this.pnlTop = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pnlMain = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnMinimize = new Guna.UI2.WinForms.Guna2TileButton();
-            this.btnMaximize = new Guna.UI2.WinForms.Guna2TileButton();
-            this.btnClose = new Guna.UI2.WinForms.Guna2TileButton();
             this.picBoxProfile = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.pnlLeft = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.rBtnSettings = new System.Windows.Forms.RadioButton();
             this.rBtnPurchase = new System.Windows.Forms.RadioButton();
             this.rBtnReports = new System.Windows.Forms.RadioButton();
             this.rBtnStock = new System.Windows.Forms.RadioButton();
             this.rBtnRooms = new System.Windows.Forms.RadioButton();
             this.rBtnSales = new System.Windows.Forms.RadioButton();
-            this.lblInternetStatus = new System.Windows.Forms.Label();
+            this.rBtnDashboard = new System.Windows.Forms.RadioButton();
+            this.pnlTop = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label2 = new System.Windows.Forms.Label();
             this.pnlNetConnection = new Guna.UI2.WinForms.Guna2Panel();
             this.picBoxNetStatus = new System.Windows.Forms.PictureBox();
             this.lblCurrentTime = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblInternetStatus = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btnMinimize = new Guna.UI2.WinForms.Guna2TileButton();
+            this.btnMaximize = new Guna.UI2.WinForms.Guna2TileButton();
+            this.btnClose = new Guna.UI2.WinForms.Guna2TileButton();
+            this.pnlMain = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.pnlAccount.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxProfile)).BeginInit();
             this.pnlLeft.SuspendLayout();
             this.pnlTop.SuspendLayout();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxProfile)).BeginInit();
             this.pnlNetConnection.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxNetStatus)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlAccount
@@ -75,6 +75,31 @@
             this.pnlAccount.Size = new System.Drawing.Size(198, 34);
             this.pnlAccount.TabIndex = 2;
             // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(36, 1);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(157, 30);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "{Sample User First Name}";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // picBoxProfile
+            // 
+            this.picBoxProfile.BackColor = System.Drawing.Color.Transparent;
+            this.picBoxProfile.Image = global::Dine360.Properties.Resources.UserPic;
+            this.picBoxProfile.ImageRotate = 0F;
+            this.picBoxProfile.Location = new System.Drawing.Point(3, 3);
+            this.picBoxProfile.Name = "picBoxProfile";
+            this.picBoxProfile.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.picBoxProfile.Size = new System.Drawing.Size(32, 29);
+            this.picBoxProfile.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picBoxProfile.TabIndex = 0;
+            this.picBoxProfile.TabStop = false;
+            // 
             // pnlLeft
             // 
             this.pnlLeft.Controls.Add(this.rBtnSettings);
@@ -92,6 +117,137 @@
             this.pnlLeft.Size = new System.Drawing.Size(64, 768);
             this.pnlLeft.TabIndex = 3;
             // 
+            // rBtnSettings
+            // 
+            this.rBtnSettings.Appearance = System.Windows.Forms.Appearance.Button;
+            this.rBtnSettings.BackColor = System.Drawing.Color.Transparent;
+            this.rBtnSettings.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.rBtnSettings.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rBtnSettings.FlatAppearance.BorderSize = 0;
+            this.rBtnSettings.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
+            this.rBtnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rBtnSettings.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rBtnSettings.ForeColor = System.Drawing.Color.White;
+            this.rBtnSettings.Image = global::Dine360.Properties.Resources.setting36;
+            this.rBtnSettings.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.rBtnSettings.Location = new System.Drawing.Point(0, 375);
+            this.rBtnSettings.Name = "rBtnSettings";
+            this.rBtnSettings.Size = new System.Drawing.Size(64, 64);
+            this.rBtnSettings.TabIndex = 7;
+            this.rBtnSettings.Text = "Settings";
+            this.rBtnSettings.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.rBtnSettings.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.rBtnSettings.UseVisualStyleBackColor = false;
+            // 
+            // rBtnPurchase
+            // 
+            this.rBtnPurchase.Appearance = System.Windows.Forms.Appearance.Button;
+            this.rBtnPurchase.BackColor = System.Drawing.Color.Transparent;
+            this.rBtnPurchase.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.rBtnPurchase.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rBtnPurchase.FlatAppearance.BorderSize = 0;
+            this.rBtnPurchase.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
+            this.rBtnPurchase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rBtnPurchase.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rBtnPurchase.ForeColor = System.Drawing.Color.White;
+            this.rBtnPurchase.Image = global::Dine360.Properties.Resources.cash;
+            this.rBtnPurchase.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.rBtnPurchase.Location = new System.Drawing.Point(0, 311);
+            this.rBtnPurchase.Name = "rBtnPurchase";
+            this.rBtnPurchase.Size = new System.Drawing.Size(64, 64);
+            this.rBtnPurchase.TabIndex = 6;
+            this.rBtnPurchase.Text = "12345";
+            this.rBtnPurchase.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.rBtnPurchase.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.rBtnPurchase.UseVisualStyleBackColor = false;
+            // 
+            // rBtnReports
+            // 
+            this.rBtnReports.Appearance = System.Windows.Forms.Appearance.Button;
+            this.rBtnReports.BackColor = System.Drawing.Color.Transparent;
+            this.rBtnReports.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.rBtnReports.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rBtnReports.FlatAppearance.BorderSize = 0;
+            this.rBtnReports.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
+            this.rBtnReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rBtnReports.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rBtnReports.ForeColor = System.Drawing.Color.White;
+            this.rBtnReports.Image = global::Dine360.Properties.Resources.reports36;
+            this.rBtnReports.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.rBtnReports.Location = new System.Drawing.Point(0, 247);
+            this.rBtnReports.Name = "rBtnReports";
+            this.rBtnReports.Size = new System.Drawing.Size(64, 64);
+            this.rBtnReports.TabIndex = 5;
+            this.rBtnReports.Text = "Reports";
+            this.rBtnReports.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.rBtnReports.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.rBtnReports.UseVisualStyleBackColor = false;
+            // 
+            // rBtnStock
+            // 
+            this.rBtnStock.Appearance = System.Windows.Forms.Appearance.Button;
+            this.rBtnStock.BackColor = System.Drawing.Color.Transparent;
+            this.rBtnStock.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.rBtnStock.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rBtnStock.FlatAppearance.BorderSize = 0;
+            this.rBtnStock.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
+            this.rBtnStock.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rBtnStock.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rBtnStock.ForeColor = System.Drawing.Color.White;
+            this.rBtnStock.Image = global::Dine360.Properties.Resources.Stock36;
+            this.rBtnStock.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.rBtnStock.Location = new System.Drawing.Point(0, 183);
+            this.rBtnStock.Name = "rBtnStock";
+            this.rBtnStock.Size = new System.Drawing.Size(64, 64);
+            this.rBtnStock.TabIndex = 4;
+            this.rBtnStock.Text = "Stock";
+            this.rBtnStock.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.rBtnStock.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.rBtnStock.UseVisualStyleBackColor = false;
+            // 
+            // rBtnRooms
+            // 
+            this.rBtnRooms.Appearance = System.Windows.Forms.Appearance.Button;
+            this.rBtnRooms.BackColor = System.Drawing.Color.Transparent;
+            this.rBtnRooms.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.rBtnRooms.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rBtnRooms.FlatAppearance.BorderSize = 0;
+            this.rBtnRooms.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
+            this.rBtnRooms.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rBtnRooms.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rBtnRooms.ForeColor = System.Drawing.Color.White;
+            this.rBtnRooms.Image = global::Dine360.Properties.Resources.Rooms42;
+            this.rBtnRooms.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.rBtnRooms.Location = new System.Drawing.Point(0, 119);
+            this.rBtnRooms.Name = "rBtnRooms";
+            this.rBtnRooms.Size = new System.Drawing.Size(64, 64);
+            this.rBtnRooms.TabIndex = 3;
+            this.rBtnRooms.Text = "Rooms";
+            this.rBtnRooms.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.rBtnRooms.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.rBtnRooms.UseVisualStyleBackColor = false;
+            // 
+            // rBtnSales
+            // 
+            this.rBtnSales.Appearance = System.Windows.Forms.Appearance.Button;
+            this.rBtnSales.BackColor = System.Drawing.Color.Transparent;
+            this.rBtnSales.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.rBtnSales.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rBtnSales.FlatAppearance.BorderSize = 0;
+            this.rBtnSales.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
+            this.rBtnSales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rBtnSales.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rBtnSales.ForeColor = System.Drawing.Color.White;
+            this.rBtnSales.Image = global::Dine360.Properties.Resources.sales42;
+            this.rBtnSales.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.rBtnSales.Location = new System.Drawing.Point(0, 55);
+            this.rBtnSales.Name = "rBtnSales";
+            this.rBtnSales.Size = new System.Drawing.Size(64, 64);
+            this.rBtnSales.TabIndex = 2;
+            this.rBtnSales.Text = "Sales";
+            this.rBtnSales.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.rBtnSales.UseVisualStyleBackColor = false;
+            // 
             // rBtnDashboard
             // 
             this.rBtnDashboard.Appearance = System.Windows.Forms.Appearance.Button;
@@ -105,7 +261,7 @@
             this.rBtnDashboard.ForeColor = System.Drawing.Color.White;
             this.rBtnDashboard.Location = new System.Drawing.Point(0, 0);
             this.rBtnDashboard.Name = "rBtnDashboard";
-            this.rBtnDashboard.Size = new System.Drawing.Size(64, 48);
+            this.rBtnDashboard.Size = new System.Drawing.Size(64, 55);
             this.rBtnDashboard.TabIndex = 1;
             this.rBtnDashboard.Text = "DINE360";
             this.rBtnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -127,6 +283,68 @@
             this.pnlTop.Size = new System.Drawing.Size(960, 48);
             this.pnlTop.TabIndex = 4;
             // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(3, 2);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(155, 46);
+            this.label2.TabIndex = 32;
+            this.label2.Text = "{Envioronment}";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pnlNetConnection
+            // 
+            this.pnlNetConnection.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlNetConnection.BackColor = System.Drawing.Color.Transparent;
+            this.pnlNetConnection.Controls.Add(this.picBoxNetStatus);
+            this.pnlNetConnection.Controls.Add(this.lblCurrentTime);
+            this.pnlNetConnection.Location = new System.Drawing.Point(164, 7);
+            this.pnlNetConnection.Name = "pnlNetConnection";
+            this.pnlNetConnection.Size = new System.Drawing.Size(106, 36);
+            this.pnlNetConnection.TabIndex = 31;
+            // 
+            // picBoxNetStatus
+            // 
+            this.picBoxNetStatus.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.picBoxNetStatus.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picBoxNetStatus.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picBoxNetStatus.Location = new System.Drawing.Point(78, 8);
+            this.picBoxNetStatus.Name = "picBoxNetStatus";
+            this.picBoxNetStatus.Size = new System.Drawing.Size(17, 17);
+            this.picBoxNetStatus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picBoxNetStatus.TabIndex = 30;
+            this.picBoxNetStatus.TabStop = false;
+            // 
+            // lblCurrentTime
+            // 
+            this.lblCurrentTime.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblCurrentTime.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.lblCurrentTime.ForeColor = System.Drawing.Color.White;
+            this.lblCurrentTime.Location = new System.Drawing.Point(-4, 10);
+            this.lblCurrentTime.Name = "lblCurrentTime";
+            this.lblCurrentTime.Size = new System.Drawing.Size(81, 18);
+            this.lblCurrentTime.TabIndex = 28;
+            this.lblCurrentTime.Text = "00:00:00 AM";
+            this.lblCurrentTime.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // lblInternetStatus
+            // 
+            this.lblInternetStatus.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblInternetStatus.BackColor = System.Drawing.Color.Transparent;
+            this.lblInternetStatus.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.lblInternetStatus.ForeColor = System.Drawing.Color.White;
+            this.lblInternetStatus.Location = new System.Drawing.Point(338, 17);
+            this.lblInternetStatus.Name = "lblInternetStatus";
+            this.lblInternetStatus.Size = new System.Drawing.Size(283, 15);
+            this.lblInternetStatus.TabIndex = 30;
+            this.lblInternetStatus.Text = "Disconnected";
+            this.lblInternetStatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblInternetStatus.Visible = false;
+            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
@@ -137,28 +355,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(101, 28);
             this.panel1.TabIndex = 3;
-            // 
-            // pnlMain
-            // 
-            this.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlMain.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(28)))), ((int)(((byte)(50)))));
-            this.pnlMain.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(20)))), ((int)(((byte)(36)))));
-            this.pnlMain.Location = new System.Drawing.Point(64, 48);
-            this.pnlMain.Name = "pnlMain";
-            this.pnlMain.Size = new System.Drawing.Size(960, 720);
-            this.pnlMain.TabIndex = 5;
-            // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(36, 1);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(157, 30);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "{Sample User First Name}";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // btnMinimize
             // 
@@ -217,211 +413,15 @@
             this.btnClose.Size = new System.Drawing.Size(28, 25);
             this.btnClose.TabIndex = 0;
             // 
-            // picBoxProfile
+            // pnlMain
             // 
-            this.picBoxProfile.BackColor = System.Drawing.Color.Transparent;
-            this.picBoxProfile.Image = global::Dine360.Properties.Resources.UserPic;
-            this.picBoxProfile.ImageRotate = 0F;
-            this.picBoxProfile.Location = new System.Drawing.Point(3, 3);
-            this.picBoxProfile.Name = "picBoxProfile";
-            this.picBoxProfile.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.picBoxProfile.Size = new System.Drawing.Size(32, 29);
-            this.picBoxProfile.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picBoxProfile.TabIndex = 0;
-            this.picBoxProfile.TabStop = false;
-            // 
-            // rBtnSettings
-            // 
-            this.rBtnSettings.Appearance = System.Windows.Forms.Appearance.Button;
-            this.rBtnSettings.BackColor = System.Drawing.Color.Transparent;
-            this.rBtnSettings.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rBtnSettings.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rBtnSettings.FlatAppearance.BorderSize = 0;
-            this.rBtnSettings.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
-            this.rBtnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rBtnSettings.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rBtnSettings.ForeColor = System.Drawing.Color.White;
-            this.rBtnSettings.Image = global::Dine360.Properties.Resources.setting36;
-            this.rBtnSettings.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.rBtnSettings.Location = new System.Drawing.Point(0, 368);
-            this.rBtnSettings.Name = "rBtnSettings";
-            this.rBtnSettings.Size = new System.Drawing.Size(64, 64);
-            this.rBtnSettings.TabIndex = 7;
-            this.rBtnSettings.Text = "Settings";
-            this.rBtnSettings.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.rBtnSettings.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.rBtnSettings.UseVisualStyleBackColor = false;
-            // 
-            // rBtnPurchase
-            // 
-            this.rBtnPurchase.Appearance = System.Windows.Forms.Appearance.Button;
-            this.rBtnPurchase.BackColor = System.Drawing.Color.Transparent;
-            this.rBtnPurchase.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rBtnPurchase.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rBtnPurchase.FlatAppearance.BorderSize = 0;
-            this.rBtnPurchase.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
-            this.rBtnPurchase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rBtnPurchase.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rBtnPurchase.ForeColor = System.Drawing.Color.White;
-            this.rBtnPurchase.Image = global::Dine360.Properties.Resources.cash;
-            this.rBtnPurchase.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.rBtnPurchase.Location = new System.Drawing.Point(0, 304);
-            this.rBtnPurchase.Name = "rBtnPurchase";
-            this.rBtnPurchase.Size = new System.Drawing.Size(64, 64);
-            this.rBtnPurchase.TabIndex = 6;
-            this.rBtnPurchase.Text = "12345";
-            this.rBtnPurchase.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.rBtnPurchase.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.rBtnPurchase.UseVisualStyleBackColor = false;
-            // 
-            // rBtnReports
-            // 
-            this.rBtnReports.Appearance = System.Windows.Forms.Appearance.Button;
-            this.rBtnReports.BackColor = System.Drawing.Color.Transparent;
-            this.rBtnReports.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rBtnReports.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rBtnReports.FlatAppearance.BorderSize = 0;
-            this.rBtnReports.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
-            this.rBtnReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rBtnReports.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rBtnReports.ForeColor = System.Drawing.Color.White;
-            this.rBtnReports.Image = global::Dine360.Properties.Resources.reports36;
-            this.rBtnReports.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.rBtnReports.Location = new System.Drawing.Point(0, 240);
-            this.rBtnReports.Name = "rBtnReports";
-            this.rBtnReports.Size = new System.Drawing.Size(64, 64);
-            this.rBtnReports.TabIndex = 5;
-            this.rBtnReports.Text = "Reports";
-            this.rBtnReports.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.rBtnReports.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.rBtnReports.UseVisualStyleBackColor = false;
-            // 
-            // rBtnStock
-            // 
-            this.rBtnStock.Appearance = System.Windows.Forms.Appearance.Button;
-            this.rBtnStock.BackColor = System.Drawing.Color.Transparent;
-            this.rBtnStock.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rBtnStock.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rBtnStock.FlatAppearance.BorderSize = 0;
-            this.rBtnStock.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
-            this.rBtnStock.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rBtnStock.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rBtnStock.ForeColor = System.Drawing.Color.White;
-            this.rBtnStock.Image = global::Dine360.Properties.Resources.Stock36;
-            this.rBtnStock.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.rBtnStock.Location = new System.Drawing.Point(0, 176);
-            this.rBtnStock.Name = "rBtnStock";
-            this.rBtnStock.Size = new System.Drawing.Size(64, 64);
-            this.rBtnStock.TabIndex = 4;
-            this.rBtnStock.Text = "Stock";
-            this.rBtnStock.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.rBtnStock.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.rBtnStock.UseVisualStyleBackColor = false;
-            // 
-            // rBtnRooms
-            // 
-            this.rBtnRooms.Appearance = System.Windows.Forms.Appearance.Button;
-            this.rBtnRooms.BackColor = System.Drawing.Color.Transparent;
-            this.rBtnRooms.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rBtnRooms.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rBtnRooms.FlatAppearance.BorderSize = 0;
-            this.rBtnRooms.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
-            this.rBtnRooms.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rBtnRooms.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rBtnRooms.ForeColor = System.Drawing.Color.White;
-            this.rBtnRooms.Image = global::Dine360.Properties.Resources.Rooms42;
-            this.rBtnRooms.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.rBtnRooms.Location = new System.Drawing.Point(0, 112);
-            this.rBtnRooms.Name = "rBtnRooms";
-            this.rBtnRooms.Size = new System.Drawing.Size(64, 64);
-            this.rBtnRooms.TabIndex = 3;
-            this.rBtnRooms.Text = "Rooms";
-            this.rBtnRooms.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.rBtnRooms.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.rBtnRooms.UseVisualStyleBackColor = false;
-            // 
-            // rBtnSales
-            // 
-            this.rBtnSales.Appearance = System.Windows.Forms.Appearance.Button;
-            this.rBtnSales.BackColor = System.Drawing.Color.Transparent;
-            this.rBtnSales.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rBtnSales.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rBtnSales.FlatAppearance.BorderSize = 0;
-            this.rBtnSales.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
-            this.rBtnSales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rBtnSales.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rBtnSales.ForeColor = System.Drawing.Color.White;
-            this.rBtnSales.Image = global::Dine360.Properties.Resources.sales42;
-            this.rBtnSales.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.rBtnSales.Location = new System.Drawing.Point(0, 48);
-            this.rBtnSales.Name = "rBtnSales";
-            this.rBtnSales.Size = new System.Drawing.Size(64, 64);
-            this.rBtnSales.TabIndex = 2;
-            this.rBtnSales.Text = "Sales";
-            this.rBtnSales.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.rBtnSales.UseVisualStyleBackColor = false;
-            // 
-            // lblInternetStatus
-            // 
-            this.lblInternetStatus.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblInternetStatus.BackColor = System.Drawing.Color.Transparent;
-            this.lblInternetStatus.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.lblInternetStatus.ForeColor = System.Drawing.Color.White;
-            this.lblInternetStatus.Location = new System.Drawing.Point(338, 17);
-            this.lblInternetStatus.Name = "lblInternetStatus";
-            this.lblInternetStatus.Size = new System.Drawing.Size(283, 15);
-            this.lblInternetStatus.TabIndex = 30;
-            this.lblInternetStatus.Text = "Disconnected";
-            this.lblInternetStatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblInternetStatus.Visible = false;
-            // 
-            // pnlNetConnection
-            // 
-            this.pnlNetConnection.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pnlNetConnection.BackColor = System.Drawing.Color.Transparent;
-            this.pnlNetConnection.Controls.Add(this.picBoxNetStatus);
-            this.pnlNetConnection.Controls.Add(this.lblCurrentTime);
-            this.pnlNetConnection.Location = new System.Drawing.Point(164, 7);
-            this.pnlNetConnection.Name = "pnlNetConnection";
-            this.pnlNetConnection.Size = new System.Drawing.Size(106, 36);
-            this.pnlNetConnection.TabIndex = 31;
-            // 
-            // picBoxNetStatus
-            // 
-            this.picBoxNetStatus.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.picBoxNetStatus.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picBoxNetStatus.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picBoxNetStatus.Location = new System.Drawing.Point(78, 8);
-            this.picBoxNetStatus.Name = "picBoxNetStatus";
-            this.picBoxNetStatus.Size = new System.Drawing.Size(17, 17);
-            this.picBoxNetStatus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picBoxNetStatus.TabIndex = 30;
-            this.picBoxNetStatus.TabStop = false;
-            // 
-            // lblCurrentTime
-            // 
-            this.lblCurrentTime.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblCurrentTime.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.lblCurrentTime.ForeColor = System.Drawing.Color.White;
-            this.lblCurrentTime.Location = new System.Drawing.Point(-4, 10);
-            this.lblCurrentTime.Name = "lblCurrentTime";
-            this.lblCurrentTime.Size = new System.Drawing.Size(81, 18);
-            this.lblCurrentTime.TabIndex = 28;
-            this.lblCurrentTime.Text = "00:00:00 AM";
-            this.lblCurrentTime.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // label2
-            // 
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(3, 2);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(155, 46);
-            this.label2.TabIndex = 32;
-            this.label2.Text = "{Envioronment}";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlMain.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(28)))), ((int)(((byte)(50)))));
+            this.pnlMain.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(20)))), ((int)(((byte)(36)))));
+            this.pnlMain.Location = new System.Drawing.Point(64, 48);
+            this.pnlMain.Name = "pnlMain";
+            this.pnlMain.Size = new System.Drawing.Size(960, 720);
+            this.pnlMain.TabIndex = 5;
             // 
             // formMain
             // 
@@ -438,12 +438,12 @@
             this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(20)))));
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.pnlAccount.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxProfile)).EndInit();
             this.pnlLeft.ResumeLayout(false);
             this.pnlTop.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxProfile)).EndInit();
             this.pnlNetConnection.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picBoxNetStatus)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
