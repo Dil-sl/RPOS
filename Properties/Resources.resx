@@ -124,14 +124,20 @@
   <data name="icons8-invoice-361" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-invoice-361.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="maximize" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\maximize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-flow-chart-361" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-flow-chart-361.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loading-gif" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loading-gif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NewPurchase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NewPurchase.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toast2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toast2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-flow-chart-36" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-flow-chart-36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-invoice-36" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-invoice-36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="searchByDate" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\searchByDate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,20 +148,20 @@
   <data name="sales42" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sales42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="App360Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\App360Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="maximize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maximize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="reports36" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\reports36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-invoice-36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-invoice-36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-category-36 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-category-36 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="App360Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\App360Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="UserPic" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\UserPic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-pay-date-36" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-pay-date-36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SALES" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SALES.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,8 +172,8 @@
   <data name="Rooms42" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Rooms42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="loading-gif" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\loading-gif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="reports36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reports36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PurchaseHistory" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PurchaseHistory.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,13 +187,13 @@
   <data name="setting36" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\setting36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="NewPurchase" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\NewPurchase.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-pay-date-36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-pay-date-36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Stock36" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Stock36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-flow-chart-361" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-flow-chart-361.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Toast1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toast1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

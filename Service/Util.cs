@@ -1,4 +1,5 @@
-﻿using Dine360.View.Login;
+﻿using Dine360.CustomComponents;
+using Dine360.View.Login;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -26,7 +27,7 @@ namespace Dine360.Service
             }
             else
             {
-                SMSExceptionResponse allInfo = await APIConnections.accessAPIConnections.ExceptionController(posExc);
+                formToastNotification allInfo = await APIConnections.accessAPIConnections.ExceptionController(posExc);
             }
         }
         [System.Runtime.InteropServices.DllImport("wininet.dll")]
@@ -73,7 +74,7 @@ namespace Dine360.Service
         {
             if (e.CloseReason == CloseReason.UserClosing && !formClosedForNewInst)
             {
-                if (MessageBox.Show("This will quit the application. Continue?", "Quit POS360?", MessageBoxButtons.YesNo) != DialogResult.Yes)
+                if (MessageBox.Show("This will quit the application. Continue?", "Quit DINE360?", MessageBoxButtons.YesNo) != DialogResult.Yes)
                     e.Cancel = true;
 
                 else

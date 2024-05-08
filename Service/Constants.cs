@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Dine360.Service
 {
-    internal class Constants
+    public class Constants
     {
 
         public static string baseURL = "http://app360dev-001-site23.anytempurl.com/api/";
@@ -71,8 +71,9 @@ namespace Dine360.Service
         {
             created,
             searched,
-            sms_save_status,
-            sms_schedule_status,
+            Booked,
+            Hold,
+            Paid,
             deleted,
             updated,
             viewed,
@@ -86,15 +87,16 @@ namespace Dine360.Service
         {
             Main_FE,
             Login_FE,
-            Contacts_FE,
-            SMS_FE
+            BackOffice_BO,
+            Menu_FE
         }
 
         //AlerBox messages
         public static string createdSuccess = "Created Successfully!";
         public static string scheduleSucceess = "Scheduled Successfully!";
         public static string transferedSuccess = "Transfered Successfully!";
-        public static string msgSent = "Message Sent!";
+        public static string roomBooked = "Room Booked!";
+        public static string roomFaild = "Room Faild!";
         public static string saveToDraft = "Message Saved to Draft!";
         public static string updatedSuccess = "Updated Successfully!";
         public static string updatedFail = "Updated Faild!";
